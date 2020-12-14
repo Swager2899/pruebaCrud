@@ -2,10 +2,6 @@
 require_once '../../../../config/variables.php';
 require_once '../../../../config/class.conexion.php';
 require_once '../../../clases/configuracion/class.Ocupacion.php';
-session_start();
-if(!isset($_SESSION['SesionUsuaId'])){
-    header("Location: index.php");
-}
 
 $Ocupacion = Ocupacion::Buscar(1, $_REQUEST['id'], "", "", "", "");
 ?>

@@ -33,8 +33,8 @@
                         <img src="<?php echo MI_HOST; ?>/public/dist/img/user1-128x128.jpg" class="img-circle" alt="User Image">
 
                         <p>
-                            <p><?php echo $_SESSION['SesionUsuaNombre'] . " " . $_SESSION['SesionUsuaApellido'];?> </p>
-                            <small>Member since Nov. 2012</small>
+                            <p>User </p>
+                            <small>Member since Dec. 2020</small>
                         </p>
                     </li>
                     <!-- Menu Body -->
@@ -58,7 +58,7 @@
                             <a href="#" class="btn btn-default btn-flat">Profile</a>
                         </div>
                         <div class="pull-right">
-                            <a href="<?php echo MI_HOST; ?>/logout.php" class="btn btn-default btn-flat">Cerrar Sesión</a>
+                            <a href="#" class="btn btn-default btn-flat">Cerrar Sesión</a>
                         </div>
                     </li>
                 </ul>
